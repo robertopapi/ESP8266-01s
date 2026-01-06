@@ -32,7 +32,7 @@ Il codice HTML è suddiviso su 4 variabili constant static char per comodità.
 Il codice HTML è stato scritto in modo da sfruttare la modalità offerta dalla tecnica AJAX, perché i contenuti della pagina web siano aggiornati senza dover rieseguire il download dell'intera pagina. Allo stesso modo, sfruttando le nuove prestazioni date dalla possibilità di gestire il flusso dati tra scheda e client web tramite il flusso di tipo text/event-stream.
 Per una maggiore interpretazione dei risultati della elaborazione, lato client web è stata predisposta più di una linea di DEBUG che è mostrata nel grande text box al centro.
 
-![interfaccia web](https://github.com/robertopapi/ESP8266-01s/integration-hw-and-web-interfaces-with-PCF8574/interfaccia.png)
+![interfaccia web](https://github.com/robertopapi/ESP8266-01s/blob/b9e28f4b34814919e3086514a69caad2bbaab993/integration-hw-and-web-interfaces-with-PCF8574/interfaccia.png)
 
 nel dettaglio, i simboli che rappresentano i LED sono cliccabili e diventano verdi se il LED hardware risulta effettivamente acceso. Stessa cosa per i bottoni che diventano grigio scuro se corrispondentemente il bottone fisico è premuto.
 
