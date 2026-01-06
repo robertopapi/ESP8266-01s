@@ -12,7 +12,7 @@ L'obiettivo del progetto è quello di testare l'integrazione dei componenti hard
 ## Configurazione hardware
 Lo schema di collegamento è quello rappresentato in figura e prevede sia delle porte del PCF8574 usate come input, collegate a dei bottoni, e altre usate come output, collegate a dei LED e al buzzer.
 
-![schema elettrico di test](https://github.com/robertopapi/ESP8266-01s/blob/integration-hw-and-web-interfaces-with-PCF8574/test2.png)
+![schema elettrico di test](https://github.com/robertopapi/ESP8266-01s/blob/91a00783bc74dba958e12a1422c67fc99552a9cc/integration-hw-and-web-interfaces-with-PCF8574/test2.png)
 
 Nel dettaglio, i bottoni sono collegati con una resistenza al positivo, per mantenere la porta del PCF8574 con il valore alto (1). Premendo il bottone si Chiude il circuito che lo collega alla massa, ponendo la porta corrispondente del PCF8574 al valore basso (0).
 I LED invece sono collegati con l'anodo al positivo tramite una resistenza mentre il catodo è collegato con la porta del PCF8574.
