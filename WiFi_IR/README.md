@@ -14,6 +14,11 @@ Gli schemi di collegamento quindi sono almeno due: uno propriamente di "potenza"
 
 ![schema elettrico cricuito di potenza](https://github.com/robertopapi/ESP8266-01s/blob/fcc14a7b672705b6838940ba3d4204f068edf33b/WiFi_IR/20260930%20IR%20POWER%20RED.png)
 
+La ragione per cui si è prestata molta cura nel cercare di separare elettricamente i due circuiti è stata data da diversi fattori e tra questi:
+* dalla diversa alimentazione, 3.3v per il microcontrollore e 5v per il LED IR,
+* dalle interferenze del circuito ad alta potenza nei confronti del microcontrollore ed in particolare per diversi problemi legati all'accesso della memoria flash, problemi durante l'avvio del microcontrollore, dipendente dallo stato delle porte collegate, e diversi altri che rendevano il circuito poco stabile.
+Da questo la necessità di disaccoppiare la porta del microcontrollore dal resto del circuito tramite l'optoisolatore 6N137, la cui scelta è stata dettata dalle specifiche prestazioni in media ed alta frequenza.
+L'uso del transistor NPN 2N2222 (che potrebbe essere sostituito anche con un transistor PNP che tuttavia richiederebbe la inversione della polarizzazione del circuito e alcune altri ritocchi al software), si è reso necessario per gestire opportunamente la richiesta di corrente da parte del LED IR e non gravare sul optoisolatore.
 
 ## Software
 Lato software, ho distribuito il codice su più file e separando inoltre i file destinati al browser web che sono caricati direttamente tramite il web server.
