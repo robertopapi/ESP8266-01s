@@ -15,18 +15,14 @@ Gli schemi di collegamento quindi sono almeno due: uno propriamente di "potenza"
 
 
 ## Software
-Lato software, ho distribuito il codice su due file, uno con il solo codice HTML e l'altro contenente lo sketch vero e proprio.
+Lato software, ho distribuito il codice su più file e separando inoltre i file destinati al browser web che sono caricati direttamente tramite il web server.
 Il codice HTML è suddiviso su 4 variabili constant static char per comodità.
-Il codice HTML è stato scritto in modo da sfruttare la modalità offerta dalla tecnica AJAX, perché i contenuti della pagina web siano aggiornati senza dover rieseguire il download dell'intera pagina. Allo stesso modo, sfruttando le nuove prestazioni date dalla possibilità di gestire il flusso dati tra scheda e client web tramite il flusso di tipo text/event-stream.
-Per una maggiore interpretazione dei risultati della elaborazione, lato client web è stata predisposta più di una linea di DEBUG che è mostrata nel grande text box al centro.
 
 # Funzionamento
-Collegati i componenti e alimentato i circuiti, una volta che il browser web client interrroga il server, oltre a visualizzare la corrispondente pagina, è possibile vedere che il flusso dati da server verso client si attiva automaticamente, con un invio ogni 5 secondi circa.
+Collegati i componenti e alimentato i circuiti, una volta che il browser web client interrroga il server.
 
 ## Conclusioni
-L'impressione è che la cadenza di ricezione dei dati ogni 5 secondi, dipenda dal browser web che richiede i dati al server con quella frequenza, piuttosto che dipendere da qualche iniziativa del server. Tuttavia non posso escludere che abbia perso qualche passaggio nella procedura.
 
-In conclusione, è possibile interagire con le singole porte del PCF8574 via web purché ci si accontenti (per ora) di non avere feedback in tempo reale.
  
 
 
