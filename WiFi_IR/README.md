@@ -11,7 +11,7 @@ L'obiettivo del progetto è quello di sostituire un normale telecomando TV a inf
 Data la presenza di possibili interferenze in media frequenza (dell'ordine dei MHz) e a valle di numerose prove di compatibilità, si è ritenuto necessario separare fisicamente il modulo di gestione del LED a InfraRossi con quello di governo e interfaccia del microcontrollore, in modo eventualmente di poter utilizzare diversi modelli di ESP8266.
 Gli schemi di collegamento quindi sono almeno due: uno propriamente di "potenza", per la gestione diretta del LED IR, e uno di alimentazione e interfacciamento del microcontrollore e in particolare quello specifico per il ESP-12F.
 
-![schema elettrico di test](https://github.com/robertopapi/ESP8266-01s/blob/91a00783bc74dba958e12a1422c67fc99552a9cc/integration-hw-and-web-interfaces-with-PCF8574/test2.png)
+![schema elettrico cricuito di potenza](https://github.com/robertopapi/ESP8266-01s/blob/fcc14a7b672705b6838940ba3d4204f068edf33b/WiFi_IR/20260930%20IR%20POWER%20RED.png)
 
 
 ## Software
