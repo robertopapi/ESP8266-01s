@@ -8,7 +8,7 @@ L'obiettivo del progetto è quello di sostituire un normale telecomando TV a inf
 * la possibilità di poter gestire tale prestazione oltre che attraverso la selezione di bottoni, anche tramite semplici comandi vocali.
 
 ## Configurazione hardware
-Data la presenza di possibili interferenze in media frequenza (dell'ordine dei MHz) e a valle di numerose prove di compatibilità, si è ritenuto necessario separare fisicamente il modulo di gestione del LED a InfraRossi con quello di governo e interfaccia del microcontrollore, in modo eventualmente di poter utilizzare diversi modelli di ESP8266.
+Data la presenza di possibili interferenze in media frequenza (dell'ordine dei MHz) e a valle di numerose prove di compatibilità, si è ritenuto necessario separare fisicamente il modulo di gestione del LED a InfraRossi con quello di governo e interfaccia del microcontrollore, in modo eventualmente da poter utilizzare diversi modelli di ESP8266.
 Gli schemi di collegamento quindi sono almeno due: uno propriamente di "potenza", per la gestione diretta del LED IR, e uno di alimentazione e interfacciamento del microcontrollore e in particolare quello specifico per il ESP-12F.
 
 ![schema elettrico cricuito di potenza](https://github.com/robertopapi/ESP8266-01s/blob/fcc14a7b672705b6838940ba3d4204f068edf33b/WiFi_IR/20260930%20IR%20POWER%20RED.png)
